@@ -45,7 +45,7 @@ button{
     color: rgb(55, 25, 255);
     background-color: #0015ff20;
     border-color: rgb(55, 25, 255);
-    border-radius: 30%;
+    border-radius: 20%;
 }
 button:hover{
     background-color: rgb(83, 45, 255);

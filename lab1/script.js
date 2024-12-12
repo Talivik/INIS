@@ -78,3 +78,13 @@ function openModal(id){
         }
     })
 }
+function seePage(id){
+    // localStorage.setItem("shirtName",shirts[id].name);
+    // localStorage.setItem("shirtDescription",shirts[id].description);
+    // localStorage.setItem("shirtPrice",shirts[id].price);
+    // let colors = shirts[id].colors;
+    // console.log(colors);
+    // localStorage.setItem("shirtColor",colors);
+    localStorage.setItem("shirtInfo", JSON.stringify(shirts[id]));
+    window.location.href = "../lab2/index.html";
+}
